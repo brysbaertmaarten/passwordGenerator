@@ -1,0 +1,65 @@
+.generator-canvas{
+    width: 30%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
+}
+.generator-canvas h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.generator-canvas__output{
+    background-color: $accentColor-lighter;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.generator-canvas__popup{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    left: 440px;
+    top: 110px;
+    font-size: .85em;
+    opacity: .0;
+    border-radius: 2px;
+    transition: opacity 0.5s ease;
+}
+
+.generator-canvas__output--output{
+    width: calc(100% - 30px);
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.generator-canvas__options__checkbox{
+    display: inline-block;
+    padding: 10px;
+    background-color: $accentColor-lighter;
+    margin-top: 4px;
+}
+
+.generator-canvas__output__icons--icon{
+    width: 20px;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.generator-canvas__options h2{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.generator-canvas__options h2 span{
+   float: right;
+   font-weight: bold;
+}

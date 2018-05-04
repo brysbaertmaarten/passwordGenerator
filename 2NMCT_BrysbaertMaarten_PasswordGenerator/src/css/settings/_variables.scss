@@ -1,0 +1,10 @@
+
+$accentColor: #6666ff;
+$accentColor-lighter: lighten($accentColor, 20%);
+$accentColor-darker: darken($accentColor, 40%);
+
+$lightGrey: rgb(210,210,210);
+
+html{
+    font-family: 'Roboto', sans-serif;
+}

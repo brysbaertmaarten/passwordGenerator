@@ -1,0 +1,40 @@
+{
+  "name": "parkeren_in_gent",
+  "version": "1.0.0",
+  "description": "Oefening 2NMCT",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brysbaertmaarten/parkeren_in_gent.git"
+  },
+  "author": "Maarten Brysbaert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brysbaertmaarten/parkeren_in_gent/issues"
+  },
+  "homepage": "https://github.com/brysbaertmaarten/parkeren_in_gent#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-csslint": "^1.0.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "jasmine": "^3.1.0",
+    "jshint-stylish": "^2.2.1",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-spec-reporter": "0.0.32"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "jshint": "^2.9.5"
+  }
+}

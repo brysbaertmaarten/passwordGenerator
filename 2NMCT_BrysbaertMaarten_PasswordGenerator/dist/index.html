@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Generator</title>
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<section class="generator-canvas">
+		<div class="generator-canvas__popup"><p>copied to clipboard</p></div>
+		<h1>Password Generator</h1>
+		<div class="generator-canvas__output">
+			<input class="generator-canvas__output--output" title="copy to clipboard" value="password"/>
+			<div class="generator-canvas__output__icons">
+				<img src="media/reload.png" alt="" class="refresh-password generator-canvas__output__icons--icon" title="reload">
+				<img src="media/copy.png" alt="" class="copy-to-clip generator-canvas__output__icons--icon" title="copy to clipboard">
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="generator-canvas__options">
+			<h2>Length of password<span class="range-value length-range-value">8</span></h2>
+			<input type="range" min="5" max="20" value="8" class="slider length-slider">
+
+			<div class="line"></div>
+
+			<h2>Variety of password</h2>
+			<div class="generator-canvas__options__checkbox">
+				<input type="checkbox" value="characters" id="characters" class="checkbox" checked><label for="characters" class="label">characters</label>
+			</div>
+			<div class="generator-canvas__options__checkbox">
+				<input type="checkbox" value="numbers" id="numbers" class="checkbox" checked><label for="numbers" class="label">Numbers</label>
+			</div>
+			<div class="generator-canvas__options__checkbox">
+				<input type="checkbox" value="capitals" id="capitals" class="checkbox"><label for="capitals" class="label">Capitals</label>
+			</div>
+			<div class="generator-canvas__options__checkbox">
+				<input type="checkbox" value="specialChars" id="specialChars" class="checkbox"><label for="specialChars" class="label">Special Characters</label>
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- javascript -->
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
